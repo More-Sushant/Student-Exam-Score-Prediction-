@@ -32,8 +32,8 @@ export const PredictionResult = ({ predictedScore, attendance }: PredictionResul
                 <span>Performance Level</span>
                 <span className="font-medium">
                   {predictedScore >= 90 ? "Excellent" : 
-                   predictedScore >= 80 ? "Good" :
-                   predictedScore >= 70 ? "Average" : "Needs Improvement"}
+                    predictedScore >= 80 ? "Good" :
+                    predictedScore >= 70 ? "Average" : "Needs Improvement"}
                 </span>
               </div>
               <Progress value={predictedScore} className="h-3" />
