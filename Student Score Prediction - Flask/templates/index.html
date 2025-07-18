@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Score Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Student Score Prediction</h2>
+        <form id="predictForm">
+            <label for="hoursStudied">Hours Studied:</label>
+            <input type="number" id="hoursStudied" name="hoursStudied" step="0.1" required>
+
+            <label for="previousScore">Previous Score:</label>
+            <input type="number" id="previousScore" name="previousScore" min="0" max="100" required>
+
+            <label for="attendance">Attendance (%):</label>
+            <input type="number" id="attendance" name="attendance" min="0" max="100" required>
+
+            <button type="submit">Predict Score</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
