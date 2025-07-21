@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "Student Score Prediction - Streamlit/app.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "Student Score Prediction - Streamlit/app.py"
+    }
+  ]
+}
