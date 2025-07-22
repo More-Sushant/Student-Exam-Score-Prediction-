@@ -5,4 +5,3 @@ numpy
 joblib
 matplotlib
 seaborn
-pickle
