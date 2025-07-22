@@ -4,6 +4,12 @@ A responsive React web application that predicts student exam scores based on in
 
 ---
 
+## 🔗 Live Demo
+
+🌐 **[Launch the App Here](https://student-exam-score-prediction-celebal.vercel.app/)**
+
+---
+
 ## 🚀 Features
 
 - 📋 User-friendly form to input student data (study hours, attendance rate, previous grades, etc.)
