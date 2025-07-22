@@ -12,7 +12,7 @@ This project predicts student exam scores based on various academic, behavioral,
 ````markdown
 ## 🔧 Create the Environment on your System (Use COMMAND PROMPT (cmd) for execution)
 
-On your friend’s PC, make sure Conda is installed. Then run:
+Make sure Conda is installed. Then run:
 
 ```bash
 conda env create -f environment.yml
@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 After activating the environment, test your project by running your main script (e.g., `streamlit run app.py`) to confirm everything is working as expected.
 
-```
+
 
 
 ## 📁 Project Structure
