@@ -21,7 +21,7 @@ conda env create -f environment.yml
 If you'd like to give the environment a custom name:
 
 ```bash
-conda env create -f environment.yml -n custom_env_name
+conda env create -f environment.yml -n scoreseer
 ```
 
 ---
@@ -31,7 +31,7 @@ conda env create -f environment.yml -n custom_env_name
 Once the environment is created, activate it using:
 
 ```bash
-conda activate myenv  # or use the custom name provided above
+conda activate scoreseer  # or use the custom name provided above
 ```
 
 ---
